@@ -30,11 +30,12 @@ public class GameController : MonoBehaviour
     }
     void FixedUpdate()
     {
-        timeLeft -= Time.deltaTime;
-        if(timeLeft < 0){
+        timeLeft += Time.deltaTime;
+        if (timeLeft < 0)
+        {
             timeLeft = 0;
         }
-        timerText.text = "Time Left:\n" + Mathf.RoundToInt(timeLeft);
+        timerText.text = "Time Survived:\n" + Mathf.RoundToInt(timeLeft);
 
     }
     IEnumerator Spawn()

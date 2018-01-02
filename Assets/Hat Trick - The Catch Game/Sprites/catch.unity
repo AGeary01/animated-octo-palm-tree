@@ -197,7 +197,7 @@ RectTransform:
   - {fileID: 425319684}
   - {fileID: 1724767186}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -267,7 +267,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 6.53}
+  m_AnchoredPosition: {x: 0, y: 50.81}
   m_SizeDelta: {x: 300, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &425319685
@@ -390,13 +390,11 @@ GameObject:
   - component: {fileID: 805460488}
   - component: {fileID: 805460490}
   - component: {fileID: 805460494}
-  - component: {fileID: 805460493}
   - component: {fileID: 805460491}
   - component: {fileID: 805460489}
-  - component: {fileID: 805460492}
   m_Layer: 0
   m_Name: Hat
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -492,34 +490,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
---- !u!114 &805460492
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 805460487}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe0aa6e8a936a1048b3f6067c80d77b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!68 &805460493
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 805460487}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -0.5745352, y: -0.9498762}
-  - {x: 0.65508384, y: -0.9429201}
 --- !u!68 &805460494
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -671,7 +641,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 58, y: -17.7}
+  m_AnchoredPosition: {x: 52.309998, y: -6.600006}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &990418888
@@ -706,7 +676,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'TIME LEFT:
+  m_Text: 'TIME Survived:
 
     ??'
 --- !u!222 &990418889
@@ -953,8 +923,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2096579419}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1143,10 +1112,11 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -11.235914, y: 17.073454}
-  - {x: -11.314647, y: -3.9728801}
+  - {x: -11.165127, y: 12.047445}
+  - {x: -10.960702, y: -3.760513}
   - {x: 11.091456, y: -3.7334027}
-  - {x: 11.124779, y: 16.690947}
+  - {x: 11.287191, y: 11.208951}
+  - {x: 11.287191, y: 11.974137}
 --- !u!4 &1624029156
 Transform:
   m_ObjectHideFlags: 0
@@ -1220,7 +1190,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: b2adb93fe7d2449dc906d0f559214f34, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1266,7 +1236,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -41.9}
+  m_AnchoredPosition: {x: 0, y: 5.24}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1724767187
@@ -1465,7 +1435,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 0}
   ball: {fileID: 100000, guid: 48d9e08c445224a00ad19a6dc7505b5b, type: 2}
-  timeLeft: 5
+  timeLeft: 0
   timerText: {fileID: 990418888}
   gameOverText: {fileID: 425319683}
   restartButton: {fileID: 1724767185}
@@ -1479,6 +1449,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 9.17, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1307264003}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
