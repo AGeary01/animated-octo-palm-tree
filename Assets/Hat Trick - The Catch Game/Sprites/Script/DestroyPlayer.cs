@@ -1,11 +1,18 @@
-﻿//using System.Collections;
-//using System.Collections.Generic;
-//using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 //public class DestroyPlayer : MonoBehaviour
 //{
-//    void OnTriggerEnter2D(Collider2D other)
+//    GameObject player;
+
+//    private void start()
 //    {
-//        Destroy(other.gameObject);
+//        player = GameObject.Find("Hat");
+//    }
+
+//    void OnTriggerEnter2D(Collider2D collision)
+//    {
+//        Destroy(player);
 //    }
 //}

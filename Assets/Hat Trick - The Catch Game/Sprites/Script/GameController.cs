@@ -50,7 +50,7 @@ public class GameController : MonoBehaviour
                 );
             Quaternion spawnRotation = Quaternion.identity;
             Instantiate(ball, spawnPosition, spawnRotation);
-            yield return new WaitForSeconds(Random.Range(1.0f, 2.0f));
+            yield return new WaitForSeconds(Random.Range(0.5f, 1.0f));
         }
         yield return new WaitForSeconds(2.0f);
         gameOverText.SetActive(true);

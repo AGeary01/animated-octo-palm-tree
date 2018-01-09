@@ -36,3 +36,4 @@ public class HatController : MonoBehaviour
         rigidbody2D.MovePosition(TargetPosition);
     }
 }
+
