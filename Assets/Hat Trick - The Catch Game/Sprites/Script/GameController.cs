@@ -35,7 +35,7 @@ public class GameController : MonoBehaviour
         {
             timeLeft = 0;
         }
-        timerText.text = "Time Survived:\n" + Mathf.RoundToInt(timeLeft);
+        timerText.text = "Time Survived:\n                              " + Mathf.RoundToInt(timeLeft);
 
     }
     IEnumerator Spawn()
@@ -50,7 +50,7 @@ public class GameController : MonoBehaviour
                 );
             Quaternion spawnRotation = Quaternion.identity;
             Instantiate(ball, spawnPosition, spawnRotation);
-            yield return new WaitForSeconds(Random.Range(0.5f, 1.0f));
+            yield return new WaitForSeconds(Random.Range(0.75f, 1.5f));
         }
         yield return new WaitForSeconds(2.0f);
         gameOverText.SetActive(true);

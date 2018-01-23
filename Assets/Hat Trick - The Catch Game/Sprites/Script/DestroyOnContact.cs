@@ -6,6 +6,6 @@ public class DestroyOnContact : MonoBehaviour
 {
     void OnTriggerExit(Collider other)
     {
-        Destroy(other.gameObject);
+        Destroy(gameObject);
     }
 }
