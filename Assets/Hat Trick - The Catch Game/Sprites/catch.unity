@@ -635,8 +635,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 52.309998, y: -6.600006}
-  m_SizeDelta: {x: 231.02, y: 56.88}
+  m_AnchoredPosition: {x: -9.4, y: -8.29}
+  m_SizeDelta: {x: 208.58, y: 58.97}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &990418888
 MonoBehaviour:
@@ -650,7 +650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.009299317, g: 0.41930872, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -658,19 +658,19 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 996a4bc3f68a0234b843156663fdbfee, type: 3}
+    m_Font: {fileID: 12800000, guid: 05ea376647eb4cb4ea42f747588049bc, type: 3}
     m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "Time Survived:\n                              ??"
+    m_LineSpacing: 1.2
+  m_Text: "Time Survived:\n                   ??"
 --- !u!222 &990418889
 CanvasRenderer:
   m_ObjectHideFlags: 0

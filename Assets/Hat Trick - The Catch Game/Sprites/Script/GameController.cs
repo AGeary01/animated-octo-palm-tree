@@ -35,7 +35,7 @@ public class GameController : MonoBehaviour
         {
             timeLeft = 0;
         }
-        timerText.text = "Time Survived:\n                              " + Mathf.RoundToInt(timeLeft);
+        timerText.text = "Time Survived:\n                   " + Mathf.RoundToInt(timeLeft);
 
     }
     IEnumerator Spawn()
