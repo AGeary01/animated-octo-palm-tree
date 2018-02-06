@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 21200000}
   - component: {fileID: 5000000}
   - component: {fileID: 5800000}
-  - component: {fileID: 114043009573070622}
+  - component: {fileID: 114650576562754044}
   m_Layer: 0
   m_Name: BowlingBall
   m_TagString: Untagged
@@ -120,7 +120,7 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100000}
   m_IsPrefabParent: 1
---- !u!114 &114043009573070622
+--- !u!114 &114650576562754044
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -128,6 +128,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 963fb000297a66f43adc16ac485cf251, type: 3}
+  m_Script: {fileID: 11500000, guid: fe0aa6e8a936a1048b3f6067c80d77b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

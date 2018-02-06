@@ -289,7 +289,6 @@ GameObject:
   - component: {fileID: 805460490}
   - component: {fileID: 805460491}
   - component: {fileID: 805460489}
-  - component: {fileID: 805460492}
   - component: {fileID: 805460493}
   m_Layer: 0
   m_Name: Knight
@@ -306,7 +305,7 @@ Transform:
   m_GameObject: {fileID: 805460487}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -3.3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.13, z: 1}
   m_Children:
   - {fileID: 1332568041}
   m_Father: {fileID: 0}
@@ -388,17 +387,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
---- !u!114 &805460492
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 805460487}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22d39d46db3e00741b6246464adff4dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!68 &805460493
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -1063,6 +1051,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75bbcef31af98f14ba0b288f4949c68d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1791560177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791560179}
+  - component: {fileID: 1791560178}
+  m_Layer: 0
+  m_Name: Destroyer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!68 &1791560178
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1791560177}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -10.81059, y: -4.923228}
+  - {x: -9.779546, y: -6.979792}
+  - {x: 8.207954, y: -6.973537}
+  - {x: 9.16918, y: -5.021706}
+--- !u!4 &1791560179
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1791560177}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.772971, y: 2.0111575, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2096579417
 GameObject:
   m_ObjectHideFlags: 0
