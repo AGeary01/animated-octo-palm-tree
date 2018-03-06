@@ -41,7 +41,7 @@ public class GameController : MonoBehaviour
     IEnumerator Spawn()
     {
         yield return new WaitForSeconds(2.0f);
-        while (timeLeft > 0)
+        while (timeLeft < 12)
         {
             Vector3 spawnPosition = new Vector3(
                 Random.Range(-maxWidth, maxWidth),
@@ -52,11 +52,17 @@ public class GameController : MonoBehaviour
             Instantiate(ball, spawnPosition, spawnRotation);
             yield return new WaitForSeconds(Random.Range(0.75f, 1.0f));
         }
-        yield return new WaitForSeconds(2.0f);
-        gameOverText.SetActive(true);
-        yield return new WaitForSeconds(2.0f);
-        restartButton.SetActive(true);
 
+
+
+
+
+
+
+        //yield return new WaitForSeconds(2.0f);
+        //gameOverText.SetActive(true);
+        yield return new WaitForSeconds(0.5f);
+        restartButton.SetActive(true);
     }
 }
 
